@@ -1,3 +1,3 @@
 # Prototype
 
-![Paper Prototype](paper_prototype.jpg)
+![Paper Prototype](paper-prototype.jpg)
