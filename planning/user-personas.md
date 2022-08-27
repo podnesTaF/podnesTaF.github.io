@@ -5,7 +5,7 @@ This app is for those that loves to run as a hobby or light recreational sport.
 **Bio**: Alex is a Student who is keen on programming, and running. He runs 10
 times a week.
 
-**Needs/Goal**s: He wants have fun and concentrate time on other activities
+**Needs/Goals**: He wants have fun and concentrate time on other activities
 asides programming.
 
 **Frustration**: He finds it boring to run all alone.
