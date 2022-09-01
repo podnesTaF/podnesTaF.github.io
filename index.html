@@ -4,9 +4,158 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
-
+    <title>Podnes TaF run</title>
     <link href="./styles/index.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <!-- header section -->
+    <section class="header">
+      <div class="header_nav">
+        <ul>
+          <li><a href="#program">Program</a></li>
+          <li><a href="#routes">Routes</a></li>
+          <li><a href="#inspiration">Inspiration</a></li>
+          <li>
+            <img src="./public/elipse.png" alt="elipse" />
+            <h1>podnesTaF</h1>
+          </li>
+        </ul>
+      </div>
+      <div class="greeting_title">
+        <h1>Welcome to podnesTaF run</h1>
+      </div>
+    </section>
+    <!-- Inspire section -->
+    <section id="inspiration" class="inspire">
+      <div class="inspire_text">
+        <h2>Inspired by running and enjoyment</h2>
+        <p>
+          Thousands of people run at the same time in Brussels alone. Not
+          everyone can motivate themselves for a long time and run alone. <br />
+          Everyone can run, but you can enjoy it only in the company. We want
+          running to be truly accessible.
+        </p>
+      </div>
+      <div class="inspire_images">
+        <img src="./public/insire_runner.png" alt="runner" />
+        <img src="./public/inspire_group.png" alt="group of runner" />
+      </div>
+    </section>
+    <!-- Program section -->
+    <section id="program" class="program">
+      <h2>Running program</h2>
+      <div class="program_wrap">
+        <div class="program_brus">
+          <h3>Brussels</h3>
+          <div class="program_dist">
+            <h4>Distances | Pace: min/km</h4>
+            <p>
+              15km - 5:30/5:00/4:30
+              <br />
+              25km - 6:00/5:30/5:00
+            </p>
+          </div>
+          <hr />
+          <div class="program_time">
+            <h4>Time</h4>
+            <p>
+              Saturday - 7:30 a.m
+              <br />
+              Sunday - 7.00 a.m
+            </p>
+          </div>
+        </div>
+        <div class="program_ant">
+          <h3>Antwerp</h3>
+          <div class="program_dist">
+            <h4>Distances | Pace: min/km</h4>
+            <p>
+              15km - 5:30/5:00/4:30
+              <br />
+              28km - 6:00/5:30/5:00
+            </p>
+          </div>
+          <hr />
+          <div class="program_time">
+            <h4>Time</h4>
+            <p>
+              Saturday - 8.00 a.m
+              <br />
+              Sunday - 7.00 a.m
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Routes section -->
+    <section id="routes" class="routes">
+      <h2>Routes</h2>
+      <div class="routes_wrap">
+        <div class="routes_item">
+          <h3>Brussels</h3>
+          <hr />
+          <p>
+            Start/finish:
+            <br />
+            Parc du Cinquantenaire
+          </p>
+          <img src="./public/brussel_map.png" alt="brussels" />
+        </div>
+        <div class="routes_item">
+          <h3>Antwerp</h3>
+          <hr />
+          <p>
+            Start/finish:
+            <br />
+            Dummy address
+          </p>
+          <img src="./public/antwerp_map.png" alt="brussels" />
+        </div>
+      </div>
+    </section>
+    <!-- Join section -->
+    <section class="join">
+      <div class="join_text">
+        <h3>Want to join us?</h3>
+        <p>Running with us is fun, strong and most importantly free!</p>
+        <hr />
+        <p>Could you tell something obout yourself?</p>
+      </div>
+      <div class="join_form">
+        <form>
+          <div class="form-control">
+            <input type="text" required />
+            <label>Name:</label>
+          </div>
+          <div class="form-control">
+            <input type="text" required />
+            <label>Email:</label>
+          </div>
+          <div class="form-control">
+            <input type="text" required />
+            <label>City:</label>
+          </div>
+          <div class="form-control">
+            <textarea type="text"></textarea>
+            <label>What is your motivation?</label>
+          </div>
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- footer section -->
+    <section class="footer">
+      <div class="contacts">
+        <p>Contacts:<br />+47623839333<br />+47383930203</p>
+      </div>
+      <div class="wish">
+        <p>Wish you a good run!</p>
+      </div>
+      <div class="social">
+        <img src="./public/insta.svg" alt="instagram" class="img" />
+        <img src="./public/facebook.svg" alt="facebook" class="img" />
+        <img src="./public/messanger.svg" alt="messanger" class="img" />
+      </div>
+    </section>
+  </body>
 </html>

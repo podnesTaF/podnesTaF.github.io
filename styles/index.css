@@ -1,1 +1,343 @@
 @import url("./something.css");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;700&display=swap");
+
+body {
+  background-color: #2e2424;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Jost", sans-serif;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  background: url(../public/header_group.png) no-repeat center center;
+  background-size: cover;
+}
+
+.header_nav {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px 30px;
+}
+
+.header_nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header_nav ul li {
+  margin-left: 25px;
+}
+
+.header_nav ul li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.header_nav ul li:last-child {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 15px;
+  padding-right: 40px;
+}
+
+.greeting_title h1 {
+  font-size: 96px;
+  text-align: center;
+  color: #fff;
+}
+
+.header_nav ul li h1 {
+  color: #fff;
+  font-size: 20px;
+  transform: translateY(-86px) rotate(-27deg);
+  padding-left: 18px;
+}
+
+.greeting_title {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  margin-bottom: 150px;
+  transform: rotate(-25deg) translateX(-250px);
+}
+
+/* Inspire styles */
+
+.inspire {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.inspire_text {
+  display: block;
+  max-width: 600px;
+  margin: 30px 50px;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.inspire_text h2 {
+  font-size: 48px;
+  color: #ddc4c4;
+}
+
+.inspire_text p {
+  font-size: 32px;
+  color: #fff;
+}
+
+.inspire_images {
+  display: block;
+}
+
+.inspire_images img:first-child {
+  position: absolute;
+  right: 100px;
+  top: 800px;
+}
+
+.inspire_images img:last-child {
+  position: relative;
+  left: 100px;
+  top: 300px;
+}
+
+/* Program style */
+
+.program {
+  display: block;
+  background: url(../public/prog_bg.png) no-repeat center center;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.program h2 {
+  padding-top: 40px;
+  margin-left: 40px;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+.program_wrap {
+  display: flex;
+  width: 100%;
+}
+
+.program_brus {
+  width: auto;
+  margin-left: 150px;
+}
+
+.program_brus h3 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.program_dist {
+  max-width: 500px;
+}
+
+.program_dist h4 {
+  font-size: 28px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.program_dist p {
+  font-size: 28px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.program_time {
+  max-width: inherit;
+}
+
+.program_time h4 {
+  font-size: 28px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.program_time p {
+  font-size: 28px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.program_ant {
+  position: absolute;
+  right: 150px;
+  max-width: 500px;
+}
+
+.program_ant h3 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+/* routes style */
+
+.routes {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.routes h2 {
+  font-size: 42px;
+  color: #fff;
+  text-align: center;
+}
+
+.routes_wrap {
+  display: flex;
+  width: 100%;
+}
+
+.routes_item {
+  display: block;
+  margin-left: 50px;
+}
+
+.routes_item:last-child {
+  position: absolute;
+  right: 50px;
+}
+
+.routes_item h3 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.routes_item p {
+  font-size: 28px;
+  color: #fff;
+}
+
+/* join style */
+
+.join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  background: url(../public/join_bg.png) no-repeat center center;
+  background-size: 100%;
+}
+
+.join_text {
+  display: block;
+  padding: 50px;
+  margin-right: 200px;
+  max-width: 400px;
+}
+
+.join_text h3 {
+  font-size: 28px;
+  color: #fff;
+}
+
+.join_text p {
+  font-size: 28px;
+  color: #fff;
+}
+
+.join_form {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  padding-right: 35px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100px;
+  background: lightblue;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.form-control {
+  position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
+}
+
+.form-control input,
+.form-control textarea {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #000;
+}
+
+.form-control textarea {
+  padding: 15px 10px;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
+  border-bottom-color: lightblue;
+}
+
+.form-control label {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  color: #fff;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background: url("../public/footer.png") no-repeat center center;
+  background-size: cover;
+}
+
+.contacts p {
+  font-size: 28px;
+  color: #fff;
+}
+
+.wish p {
+  font-size: 28px;
+  color: #fff;
+}
+
+.img {
+  margin: 15px;
+}
